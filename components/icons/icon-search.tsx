@@ -1,0 +1,32 @@
+import { IIconProps } from "@/types/icon.type";
+
+const IconSearch = ({ className }: IIconProps) => {
+  return (
+    <svg
+      width="25"
+      height="27"
+      viewBox="0 0 25 27"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <circle
+        cx="10.1404"
+        cy="10.1404"
+        r="9.39035"
+        stroke="#9C9C9D"
+        strokeWidth="1.5"
+      />
+      <line
+        x1="16.0391"
+        y1="17.3644"
+        x2="24.39"
+        y2="25.7153"
+        stroke="#9C9C9D"
+        strokeWidth="1.5"
+      />
+    </svg>
+  );
+};
+
+export default IconSearch;

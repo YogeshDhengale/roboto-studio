@@ -1,0 +1,31 @@
+import { IIconProps } from "@/types/icon.type";
+import React from "react";
+
+const IconMessage = ({ className }: IIconProps) => {
+  return (
+    <svg
+      width="33"
+      height="23"
+      viewBox="0 0 33 23"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <rect
+        x="0.75"
+        y="0.75"
+        width="30.7105"
+        height="21.1667"
+        stroke="#9C9C9D"
+        strokeWidth="1.5"
+      />
+      <path
+        d="M3.57892 4.77197L15.5087 13.7193L28.6315 4.77197"
+        stroke="#9C9C9D"
+        strokeWidth="1.5"
+      />
+    </svg>
+  );
+};
+
+export default IconMessage;
